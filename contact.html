@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Enock Odongo for data analysis inquiries and collaborations.">
+    <title>Contact - Enock Odongo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Enock Odongo</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h1 class="animate-slide-up">Get in Touch</h1>
+            <p class="animate-slide-up section-subtitle">Have a project in mind or need data analysis expertise? Let’s connect!</p>
+            <div class="contact-form animate-slide-up">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="button" id="submit-btn" onclick="submitForm()">Send Message</button>
+                <p id="form-message" class="form-message"></p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Enock Odongo</h3>
+                <p>Passionate data analyst delivering actionable insights through advanced analytics and visualizations.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> enock.odongo@example.com</p>
+                <p><i class="fas fa-phone"></i> +123-456-7890</p>
+                <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to my newsletter for data analysis tips and project updates.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" aria-label="Email for newsletter">
+                    <button type="button" onclick="subscribeNewsletter()">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Enock Odongo. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
